@@ -325,6 +325,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 auto;
 }
 
 /* Header Styles */
@@ -445,29 +446,29 @@
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     border-right: none;
-    padding-right: 50px; /* Space for overlapping middle card */
+    padding-right: 50px; 
 }
 
 .card-teams {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     border-left: none;
-    padding-left: 50px; /* Space for overlapping middle card */
+    padding-left: 50px; 
 }
 
 
 /* Middle Card (Professional) */
 .card-professional {
-    background-color: #1e293b; /* Dark blue/slate */
+    background-color: #1e3448;
     color: #ffffff;
-    transform: scale(1.1); /* Make it slightly larger */
+    transform: scale(1.1); 
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
     z-index: 2;
     border-radius: 12px;
     padding-top: 95px;
     padding-bottom: 50px;
     width: 410px;
-    height: 550px;
+    height: 500px;
     
 }
 
@@ -504,6 +505,400 @@
     border: none;
 }
 
+/* FORM SECTION  */
 
+.page-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    position: relative;
+    overflow: hidden;
+    margin-top: 100px;
+    background-color: #005AE2;
+}
+
+
+
+/* Main Form Card */
+.form-card {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 480px;
+    padding: 50px 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+}
+
+.trim-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px; /* Space between rows */
+}
+
+/* Input Groups */
+.input-group {
+    width: 100%;
+}
+
+/* Flexbox row for Domain and Alias */
+.input-row {
+    display: flex;
+    gap: 16px;
+    width: 100%;
+}
+
+.half-width {
+    flex: 1;
+    min-width: 0; /* Prevents flex items from overflowing */
+}
+
+/* Common Input Styles */
+.form-input {
+    width: 100%;
+    padding: 16px 20px;
+    font-size: 15px;
+    color: #3284FF; /* Darker blue text */
+    background-color: #ffffff;
+    border: 1px solid #3284FF; /* Blue outline */
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+/* Placeholder text color */
+.form-input::placeholder {
+    color: #3284FF; 
+}
+
+
+/* Custom Select Dropdown Styling */
+.relative-wrapper {
+    position: relative;
+}
+
+.custom-select {
+    appearance: none; /* Removes default OS arrow */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    color: #3284FF; /* Matches placeholder color */
+}
+
+/* Adjust dropdown options text color */
+.custom-select option {
+    color: #3284FF;
+}
+
+.custom-select option:disabled {
+    color: #a0aec0;
+}
+
+/* Custom Arrow for Select */
+.select-arrow {
+    position: absolute;
+    right: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 6px;
+    color: #3284FF;
+    pointer-events: none; 
+}
+
+/* Submit Button */
+.submit-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    padding: 16px;
+    background-color: #005AE2; 
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: 8px;
+}
+
+.submit-btn:hover {
+    background-color: #005AE2;
+}
+
+
+/* Terms Text */
+.terms-text {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #005AE2;
+    margin-top: 8px;
+    text-align: left;
+}
+
+.terms-text a {
+    color: #005AE2;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.terms-text a:hover {
+    text-decoration: underline;
+}
+
+
+/* FAQ SECTION  */
+
+.faq-section {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    padding: 80px 20px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Header */
+.faq-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.main-title {
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.vertical-line {
+    display: inline-block;
+    width: 4px;
+    height: 32px;
+    background-color: #2b6cb0; /* Blue line */
+    margin-right: 16px;
+    border-radius: 2px;
+}
+
+/* FAQ List */
+.faq-list {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #e2e8f0; /* Thin top border */
+}
+
+/* Individual FAQ Item */
+.faq-item {
+    border-bottom: 1px solid #e2e8f0;
+}
+
+/* Question Row */
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+    cursor: pointer;
+    gap: 20px;
+}
+
+
+.question-text {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #141414;
+}
+
+
+/* Horizontal line of the plus icon */
+.icon-toggle::before,
+.icon-toggle::after {
+    content: '';
+    position: absolute;
+    background-color: #141414;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Horizontal line */
+.icon-toggle::before {
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1.5px;
+    transform: translateY(-50%);
+}
+
+/* Vertical line */
+.icon-toggle::after {
+    top: 0;
+    left: 50%;
+    width: 1.5px;
+    height: 100%;
+    transform: translateX(-50%);
+}
+
+
+/* Answer Section */
+.faq-answer {
+    padding-bottom: 24px;
+    padding-right: 40px; 
+}
+
+.faq-answer p {
+    font-size: 16px;
+    line-height: 32px;
+    color: #141414;
+}
+
+/* CTA SECTION  */
+
+.cta-section {
+    width: 100vw;
+    margin: 0 auto;
+    background-color: #1e293b; 
+    padding: 80px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+/* Content Container (needs z-index to sit above the background shapes) */
+.cta-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px; 
+}
+
+/* Title */
+.cta-title {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    line-height: 48px;
+}
+
+/* Button */
+.cta-button {
+    display: inline-block;
+    background-color: #005AE2; 
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16px 48px;
+    border-radius: 100px; 
+    
+   
+}
+
+
+/* FOOTER  */
+
+/* Footer Container & Background */
+.footer {
+    width: 100%;
+    padding-top: 60px;
+    background-color: #ffffff;
+}
+
+
+
+/* Container to keep content centered */
+.footer-container {
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    padding: 0 203px;
+}
+
+/* Grid Layout */
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+/* Brand Column (Logo & Socials) */
+.brand-col {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+
+/* Links Columns */
+.links-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.col-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #071827;
+}
+
+.mt-spacing {
+    margin-top: 40px;
+ }
+
+.link-group ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 14px; 
+}
+
+.link-group a {
+    text-decoration: none;
+    color: #112232; 
+    font-size: 16px;
+    
+}
+
+/* Bottom Bar */
+.footer-bottom {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+    border-top: none;
+}
+
+.bottom-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    color: #112232;
+}
+
+.bottom-links a {
+    text-decoration: none;
+    color: #112232;
+}
+
+.separator {
+    color: #94a3b8;
+    margin: 0 4px;
+}
 
 
