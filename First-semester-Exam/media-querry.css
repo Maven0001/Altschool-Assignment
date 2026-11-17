@@ -150,6 +150,82 @@
         line-height: 1.6;
     }
 
+     /* TESTIMONIAL */
+
+    .testimonial-section {
+        padding: 65px 6%;
+    }
+
+    .testimonial-content {
+        gap: 35px;
+    }
+
+    .testimonial-image {
+        flex-basis: 25%;
+    }
+
+    .testimonial-text blockquote {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    .testimonial-author h3 {
+        font-size: 18px;
+    }
+
+    .testimonial-author span {
+        font-size: 14px;
+    }
+
+
+    /* CTA */
+
+    .cta-section {
+        gap: 50px;
+        padding: 70px 7%;
+    }
+
+    .cta-images {
+        flex-basis: 40%;
+        height: 290px;
+    }
+
+    .cta-image {
+        width: 125px;
+        height: 125px;
+    }
+
+    .cta-content h2 {
+        font-size: 36px;
+        line-height: 1.35;
+    }
+
+    .cta-content p {
+        font-size: 15px;
+    }
+
+
+    /* FOOTER */
+
+    .footer {
+        grid-template-columns: 1.3fr 1fr 1fr 1fr;
+        gap: 25px;
+        padding: 55px 5% 80px;
+    }
+
+    .footer-logo a {
+        font-size: 34px;
+    }
+
+    .footer-column h3 {
+        font-size: 18px;
+    }
+
+    .footer-column li a {
+        font-size: 14px;
+    }
+
+
 }
 
 
@@ -328,6 +404,108 @@
         line-height: 1.6;
     }
 
+     /* TESTIMONIAL */
+
+    .testimonial-section {
+        padding: 55px 7%;
+    }
+
+    .testimonial-content {
+        gap: 30px;
+    }
+
+    .testimonial-image {
+        flex-basis: 28%;
+    }
+
+    .testimonial-text blockquote {
+        font-size: 15px;
+        line-height: 1.7;
+        margin-bottom: 20px;
+    }
+
+    .testimonial-author {
+        gap: 5px;
+    }
+
+    .testimonial-author h3 {
+        font-size: 16px;
+    }
+
+    .testimonial-author span {
+        font-size: 13px;
+    }
+
+    .join-chatter-btn {
+        font-size: 14px;
+        padding: 11px 20px;
+    }
+
+
+    /* CTA */
+
+    .cta-section {
+        gap: 35px;
+        padding: 65px 6%;
+        min-height: 400px;
+    }
+
+    .cta-images {
+        flex-basis: 40%;
+        height: 250px;
+    }
+
+    .cta-image {
+        width: 105px;
+        height: 105px;
+    }
+
+    .image-two {
+        top: 80px;
+    }
+
+    .cta-content h2 {
+        font-size: 30px;
+        line-height: 1.35;
+        margin-bottom: 16px;
+    }
+
+    .cta-content p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .cta-button {
+        font-size: 14px;
+        padding: 11px 20px;
+    }
+
+
+    /* FOOTER */
+
+    .footer {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        padding: 50px 7% 65px;
+    }
+
+    .footer-logo a {
+        font-size: 32px;
+    }
+
+    .footer-column h3 {
+        font-size: 17px;
+        margin-bottom: 16px;
+    }
+
+    .footer-column li {
+        margin-bottom: 12px;
+    }
+
+    .footer-column li a {
+        font-size: 14px;
+    }
+
 }
 
 
@@ -490,6 +668,148 @@
         line-height: 1.6;
     }
 
+     /* TESTIMONIAL */
+
+    .testimonial-section {
+        padding: 45px 22px;
+    }
+
+    .testimonial-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        text-align: center;
+    }
+
+    .testimonial-image {
+        width: 140px;
+        flex: none;
+    }
+
+    .testimonial-image img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .testimonial-text {
+        width: 100%;
+    }
+
+    .testimonial-text blockquote {
+        font-size: 14px;
+        line-height: 1.7;
+        margin-bottom: 22px;
+    }
+
+    .testimonial-author {
+        justify-content: center;
+        gap: 5px;
+        margin-bottom: 18px;
+    }
+
+    .testimonial-author h3 {
+        font-size: 15px;
+    }
+
+    .testimonial-author span {
+        font-size: 12px;
+    }
+
+    .join-chatter-btn {
+        font-size: 13px;
+        padding: 11px 20px;
+    }
+
+
+    /* CTA */
+
+    .cta-section {
+        flex-direction: column;
+        gap: 30px;
+        padding: 55px 22px;
+        min-height: auto;
+    }
+
+    .cta-images {
+        width: 100%;
+        max-width: 300px;
+        height: 250px;
+        flex: none;
+    }
+
+    .cta-image {
+        width: 110px;
+        height: 110px;
+    }
+
+    .image-one {
+        top: 0;
+        left: 0;
+    }
+
+    .image-two {
+        top: 75px;
+        right: 0;
+    }
+
+    .image-three {
+        bottom: 0;
+        left: 0;
+    }
+
+    .cta-content {
+        width: 100%;
+        text-align: left;
+    }
+
+    .cta-content h2 {
+        font-size: 28px;
+        line-height: 1.35;
+        margin-bottom: 15px;
+    }
+
+    .cta-content p {
+        font-size: 14px;
+        line-height: 1.7;
+        margin-bottom: 20px;
+    }
+
+    .cta-button {
+        font-size: 13px;
+        padding: 11px 20px;
+    }
+
+
+    /* FOOTER */
+
+    .footer {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 35px 20px;
+        padding: 45px 22px 55px;
+    }
+
+    .footer-logo {
+        grid-column: 1 / -1;
+    }
+
+    .footer-logo a {
+        font-size: 30px;
+    }
+
+    .footer-column h3 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .footer-column li {
+        margin-bottom: 12px;
+    }
+
+    .footer-column li a {
+        font-size: 13px;
+    }
+
+
 }
 
 
@@ -586,6 +906,81 @@
 
     .feature-card p {
         font-size: 13px;
+    }
+
+     /* TESTIMONIAL */
+
+    .testimonial-section {
+        padding: 35px 18px;
+       
+    }
+
+    .testimonial-content{
+         display: flex;
+        flex-direction: column;
+    }
+
+    .testimonial-image,
+    .testimonial-image img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .testimonial-text blockquote {
+        font-size: 13px;
+    }
+
+    .testimonial-author h3 {
+        font-size: 14px;
+    }
+
+    .testimonial-author span {
+        font-size: 11px;
+    }
+
+
+    /* CTA */
+
+    .cta-section {
+        padding: 45px 18px;
+    }
+
+    .cta-images {
+        max-width: 260px;
+        height: 220px;
+    }
+
+    .cta-image {
+        width: 95px;
+        height: 95px;
+    }
+
+    .cta-content h2 {
+        font-size: 25px;
+    }
+
+    .cta-content p {
+        font-size: 13px;
+    }
+
+
+    /* FOOTER */
+
+    .footer {
+        padding: 40px 18px 50px;
+        gap: 30px 15px;
+    }
+
+    .footer-logo a {
+        font-size: 27px;
+    }
+
+    .footer-column h3 {
+        font-size: 15px;
+    }
+
+    .footer-column li a {
+        font-size: 12px;
     }
 
 }
